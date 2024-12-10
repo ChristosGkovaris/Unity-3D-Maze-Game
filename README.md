@@ -1,1 +1,1 @@
-# Unity 3D Game
+# Unity 3D Maze Game
