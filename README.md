@@ -2,8 +2,8 @@
 Welcome to the "Unity 3D Maze Game" repository, an interactive 3D game designed as a learning project for the course Computer Graphics and Interaction Systems. This project explores fundamental concepts in game development using Unity and C# scripting. The final grade of the project is  out of .
 
 
-## Project Overview
-The game is a 3D maze-based adventure where players control a character, "Treasure Bob," to navigate through a maze, collect treasures, and avoid traps. The project emphasizes gameplay mechanics, object interactions, and visual/audio enhancements to create an engaging experience.
+## Game Overview
+The game is a 3D maze-based adventure where players control a character, "Treasure Bob" to navigate through a maze, collect treasures, and avoid traps. The project emphasizes gameplay mechanics, object interactions, and visual/audio enhancements to create an engaging experience.
 
 
 ## Key Features
@@ -20,21 +20,16 @@ The game is a 3D maze-based adventure where players control a character, "Treasu
 **Environment**
 - The maze is constructed using Unity's 3D objects: Floor->A textured plane (100x100) with a `floor.jpg` texture. Walls->Blue cubes
   (10x10x10) placed to form the maze structure.
-
 **Character**
 - Treasure Bob: A spherical character (diameter 7) textured with `bob.jpg`. Bob is controlled with the keys `I`, `K`, `J`, `L` for directional movement. Movement is constrained within the maze using collision detection.
-
 **Treasures**
 - Spawned at random locations with textures like cherries, lemons, and oranges. Each treasure type awards different points.
 - Treasures shrink and disappear after being collected, with accompanying sound and visual effects.
-
 **Traps**
 - Randomly spawning spheres (`death.jpg` texture) that trigger the "Game Over" state when collided with.
-
 **Camera**
 - Fully controlled camera for exploring the maze: Movement with arrow keys or `W`, `A`, `S`, `D`. Vertical adjustment
   with `+` and `-`. Rotation with `R`.
-
 **Bonus Features**
 - Adjustable movement speed for Treasure Bob using number keys (1–5).
 - Real-time score updates displayed on the UI.
