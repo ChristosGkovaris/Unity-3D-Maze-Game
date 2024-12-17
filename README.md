@@ -48,8 +48,8 @@ The game is a 3D maze-based adventure where players control a character, "Treasu
 ## How to Run
 - Clone the repository:
   ```bash
-     git clone https://github.com/YourUsername/Unity-Maze-Game-Treasure-Bob.git
-     cd Unity-Maze-Game-Treasure-Bob
+     git clone https://github.com/YourUsername/Unity-3D-Maze-Game.git
+     cd Unity-3D-Maze-Game
 
 
 ## Collaboration
