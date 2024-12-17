@@ -2,19 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeathTrapCollision : MonoBehaviour
-{
-   private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player")) // Υποθέτουμε ότι ο Bob έχει tag "Player"
-        {
-            // Κάλεσε το Game Over
+public class DeathTrapCollision : MonoBehaviour {
+    private void OnTriggerEnter(Collider other) {
+        // Check if the object colliding with the trap is the player
+        // Assumes the player character (e.g., Bob) has the tag "Player"
+        if (other.CompareTag("Player")) {
+            // Trigger the Game Over event via the GameManager
             FindObjectOfType<GameManager>().TriggerGameOver();
 
-            // Καταστροφή του Bob
+            // Destroy the player object upon collision
             Destroy(other.gameObject);
         }
     }
 }
-
-
