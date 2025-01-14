@@ -1,5 +1,5 @@
 # Unity 3D Maze Game
-Welcome to the "Unity 3D Maze Game" repository, an interactive 3D game designed as a learning project for the course Computer Graphics and Interaction Systems. This project explores fundamental concepts in game development using Unity and C# scripting. The final grade of the project is  out of .
+Welcome to the "Unity 3D Maze Game" repository, an interactive 3D game designed as a learning project for the course Computer Graphics and Interaction Systems. This project explores fundamental concepts in game development using Unity and C# scripting. The final grade of the project is 93 (excluding the additional 50 bonus points) out of 100.
 
 
 ## Game Overview
